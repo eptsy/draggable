@@ -17,10 +17,9 @@ body {
 .wrapper {
   position: relative;
   overflow-x: hidden;
-  max-width: 1000px;
+  width: 70vw;
   padding: 20px;
   border-radius: 10px;
-  width: 80%;
   background-color: rgb(245 245 245);
 }
 .icon {
@@ -86,4 +85,8 @@ body {
 }
 .heading {
   line-height: 70px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1110px) {
 }
